@@ -1,0 +1,24 @@
+.gallery {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.gallery img {
+    max-height: 440px;
+    width: auto;
+    border: 1px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.gallery:hover img {
+    border-color: hsl(0, 0%, 20%);
+}
+
+.description {
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+}
